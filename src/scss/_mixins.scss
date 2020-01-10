@@ -1,0 +1,5 @@
+// Mixins library
+
+@mixin box-shadow($shadow-color) {
+  box-shadow: 2px 2px 5px $shadow-color;
+}

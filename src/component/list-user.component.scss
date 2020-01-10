@@ -1,0 +1,18 @@
+@import '../scss/variables';
+@import '../scss/mixins';
+
+.card-item {
+  width: 40%;
+  background-color: $gin;
+  @include box-shadow($shadow-box);
+  margin: 10px 0;
+  padding: 10px;
+  color: $outer-space;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-item {
+    width: 90%;
+  }
+}
