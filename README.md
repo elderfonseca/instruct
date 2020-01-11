@@ -13,7 +13,7 @@ As etapas a seguir assumem que o _NPM_ está instalado na máquina.
 
 Caso contrário, consulte o link [`https://www.npmjs.com/get-npm`](https://www.npmjs.com/get-npm).
 
-Se você usar _Yarn_, sinta-se à vontade para usar os comandos equivalentes.
+Caso use o _Yarn_, sinta-se à vontade para usar os comandos equivalentes.
 
 1. Clone o repositório de [`https://github.com/elderfonseca/instruct.git`](https://github.com/elderfonseca/instruct.git).
 2. Execute o `npm install` no diretório raiz.
