@@ -15,7 +15,7 @@ body {
       @include box-shadow($shadow-box);
       
       h2 {
-        padding: 3%;
+        padding: 3% 5%;
         font-size: 2.5rem;
         color: $picton-blue;
         margin: 0;
@@ -27,7 +27,20 @@ body {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      padding-top: 2%;
+      padding: 2% 0;
+      overflow: hidden;
+    }
+
+    .footer-content {
+      width: 100%;
+      background-color: $outer-space;
+
+      p {
+        color: $gin;
+        text-align: right;
+        padding: 3% 5%;
+        margin: 0;
+      }
     }
   }
 }

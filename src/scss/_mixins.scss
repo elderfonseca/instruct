@@ -1,5 +1,15 @@
-// Mixins library
+// Mixins and keyframes library
 
 @mixin box-shadow($shadow-color) {
   box-shadow: 2px 2px 5px $shadow-color;
+}
+
+@keyframes card-visible {
+  from {
+    opacity: 0;
+    transform: translate(0, 50px);
+  }
+  to {
+    opacity: 1;
+  }
 }

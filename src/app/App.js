@@ -12,6 +12,9 @@ function App() {
       <main className="cards-users">
         <UserList></UserList>
       </main>
+      <footer className="footer-content">
+        <p>Developed by Elder Fonseca</p>
+      </footer>
     </div>
   );
 }
